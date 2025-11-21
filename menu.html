@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>منيو انتيكو</title>
+
+  <!-- خطوط -->
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --antique-brown: #6b4a3a;
+      --menu-green: #788a4f;
+      --paper: #f7f2ea;
+    }
+
+    body{
+      margin:0;
+      background:var(--menu-green);
+      font-family:'Amiri', serif;
+      color:white;
+      padding:24px;
+    }
+
+    h1{
+      text-align:center;
+      font-size:40px;
+      margin:0 0 20px 0;
+      color:white;
+      font-weight:700;
+    }
+
+    .section-title{
+      font-size:26px;
+      margin:25px 0 10px 0;
+      font-weight:700;
+      color:#fff;
+    }
+
+    .menu-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+      gap:14px;
+    }
+
+    .item{
+      background:rgba(255,255,255,0.15);
+      padding:14px;
+      border-radius:10px;
+      border-left:5px solid #ffffff55;
+    }
+
+    .item h3{
+      margin:0;
+      font-weight:700;
+      font-size:18px;
+    }
+
+    .cal, .price{
+      font-weight:700;
+      font-size:14px;
+      margin-top:4px;
+    }
+
+    a.back{
+      display:inline-block;
+      margin-top:20px;
+      padding:10px 16px;
+      background:white;
+      color:var(--menu-green);
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:700;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>منيو انتيكو</h1>
+
+  <!-- قسم الحلا -->
+  <div class="section-title">حلا</div>
+  <div class="menu-grid">
+    <div class="item"><h3>كوكيز</h3><div class="cal">CAL 220</div><div class="price">8 ريال</div></div>
+    <div class="item"><h3>ماربل</h3><div class="cal">CAL 350</div><div class="price">8 ريال</div></div>
+    <div class="item"><h3>بيكان تارت</h3><div class="cal">CAL 602</div><div class="price">8 ريال</div></div>
+    <div class="item"><h3>ماتيلدا</h3><div class="cal">CAL 466</div><div class="price">9 ريال</div></div>
+    <div class="item"><h3>شوكلاتة لافا</h3><div class="cal">CAL 629</div><div class="price">10 ريال</div></div>
+    <div class="item"><h3>تمر بودينق</h3><div class="cal">CAL 300</div><div class="price">10 ريال</div></div>
+    <div class="item"><h3>دولسي</h3><div class="cal">CAL 600</div><div class="price">18 ريال</div></div>
+    <div class="item"><h3>كارميل بيكان ترامسيو</h3><div class="cal">CAL 430</div><div class="price">18 ريال</div></div>
+    <div class="item"><h3>شوكلاتة بودينق</h3><div class="cal">CAL 330</div><div class="price">18 ريال</div></div>
+    <div class="item"><h3>فرنش توست</h3><div class="price">15 ريال</div></div>
+  </div>
+
+  <!-- قسم V60 -->
+  <div class="section-title">قهوة مقطرة V60</div>
+  <div class="menu-grid">
+    <div class="item"><h3>قهوة مقطرة حارة</h3><div class="cal">CAL 5</div><div class="price">14 ريال</div></div>
+    <div class="item"><h3>قهوة مقطرة باردة</h3><div class="cal">CAL 10</div><div class="price">16 ريال</div></div>
+  </div>
+
+  <!-- قسم الحار -->
+  <div class="section-title">مشروبات حارة</div>
+  <div class="menu-grid">
+    <div class="item"><h3>اسبريسو</h3><div class="cal">CAL 5</div><div class="price">9 ريال</div></div>
+    <div class="item"><h3>اسبريسو فريدو</h3><div class="cal">CAL 10</div><div class="price">10 ريال</div></div>
+    <div class="item"><h3>أمريكانو</h3><div class="cal">CAL 10</div><div class="price">9 ريال</div></div>
+    <div class="item"><h3>كورتادو</h3><div class="cal">CAL 80</div><div class="price">13 ريال</div></div>
+    <div class="item"><h3>فلات وايت</h3><div class="cal">CAL 150</div><div class="price">13 ريال</div></div>
+    <div class="item"><h3>لاتيه</h3><div class="cal">CAL 180</div><div class="price">15 ريال</div></div>
+    <div class="item"><h3>كابتشينو</h3><div class="cal">CAL 120</div><div class="price">14 ريال</div></div>
+    <div class="item"><h3>سبانش لاتيه</h3><div class="cal">CAL 250</div><div class="price">15 ريال</div></div>
+    <div class="item"><h3>هوت شوكليت</h3><div class="cal">CAL 300</div><div class="price">15 ريال</div></div>
+  </div>
+
+  <!-- قسم البارد -->
+  <div class="section-title">مشروبات باردة</div>
+  <div class="menu-grid">
+    <div class="item"><h3>ايس لاتيه</h3><div class="cal">CAL 100</div><div class="price">14 ريال</div></div>
+    <div class="item"><h3>سبانش لاتيه بارد</h3><div class="cal">CAL 250</div><div class="price">15 ريال</div></div>
+    <div class="item"><h3>مشروبات ماتشا</h3><div class="cal">CAL 220</div><div class="price">16 ريال</div></div>
+    <div class="item"><h3>كركديه</h3><div class="cal">CAL 60</div><div class="price">12 ريال</div></div>
+    <div class="item"><h3>موهيتو</h3><div class="cal">CAL 130</div><div class="price">15 ريال</div></div>
+  </div>
+
+  <a href="index.html" class="back">العودة للصفحة الرئيسية</a>
+
+</body>
+</html>

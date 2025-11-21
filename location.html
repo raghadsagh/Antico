@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>موقعنا — انتيكو</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Rakkas&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --antique-brown:#6b4a3a;
+      --menu-green:#788a4f;
+      --paper:#f7f2ea;
+      --dark:#3f2b23;
+    }
+
+    body{
+      margin:0;
+      font-family:'Amiri', serif;
+      background:linear-gradient(180deg,var(--paper),#efe9e1);
+      color:var(--dark);
+      padding:24px;
+    }
+
+    .header{
+      text-align:center;
+      margin-bottom:24px;
+    }
+
+    .logo{
+      font-family:'Rakkas', cursive;
+      font-size:50px;
+      background:linear-gradient(135deg,var(--antique-brown),var(--menu-green));
+      -webkit-background-clip:text;
+      color:transparent;
+      margin-bottom:10px;
+    }
+
+    .section{
+      background:#ffffffdd;
+      padding:20px 18px;
+      border-radius:14px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.08);
+      border:1px solid #00000010;
+      line-height:1.9;
+      font-size:17px;
+      text-align:center;
+    }
+
+    iframe{
+      width:100%;
+      height:380px;
+      border:0;
+      border-radius:14px;
+      margin-top:12px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 18px;
+      background:var(--menu-green);
+      color:white;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:700;
+      box-shadow:0 6px 20px rgba(120,138,79,0.30);
+    }
+
+    .back{
+      display:inline-block;
+      margin-top:24px;
+      padding:10px 16px;
+      background:var(--antique-brown);
+      color:white;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:700;
+      box-shadow:0 8px 20px rgba(107,74,58,0.20);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">انتيكو</div>
+    <div>موقع المقهى على الخريطة</div>
+  </header>
+
+  <section class="section">
+    <h2>موقعنا</h2>
+
+    <p>يمكنك استخدام الخريطة التالية للوصول إلينا بسهولة:</p>
+
+    <!-- زر يفتح الموقع -->
+    <a class="btn" href="https://maps.app.goo.gl/iG4SD5HTiodFtzaB6" target="_blank">
+      فتح الموقع على الخريطة
+    </a>
+
+    <!-- لو تبين خريطة داخلية، أقدر أضيفها -->
+    <!-- مجرد مثال، اقدر اركب لك iframe مباشر اذا تبينه -->
+    
+    <a class="back" href="index.html">عودة للصفحة الرئيسية</a>
+  </section>
+
+</body>
+</html>
